@@ -5,7 +5,7 @@ Created on Tue May 19 13:25:08 2020
 
 @author: isadora
 """
-import emg3d
+import geofem.emg3d as emg3d
 import discretize
 import numpy as np
 import matplotlib.pyplot as plt
