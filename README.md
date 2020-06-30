@@ -1,6 +1,6 @@
 # GEOFEM: 
 # Modelagem Geofísica Eletromagnética
-
+![Geofem Image Logo](https://github.com/iisadoramacedo/geofem-master/blob/master/geofem-logo.png)
 
 GEOFEM é um pacote python open-source de modelagem geofísica dos campos eletromagnéticos, via volumes finitos, dos métodos MT e MCSEM. Constitui a primeira parte do pacote MiGEO - em desenvolvimento -, que visa abranger modelagem e inversão eletromagnética.
 
