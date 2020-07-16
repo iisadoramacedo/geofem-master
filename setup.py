@@ -24,8 +24,6 @@ setuptools.setup(
         "scipy>=1.4.0",
         "pymatsolver>=0.1.1",
         "matplotlib",
-        "simpeg<=0.12.0",
-        "emg3d",
         "properties>=0.5.2",
         "vectormath>=0.2.0",
         "discretize>=0.4.0",
