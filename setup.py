@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="geofem", # Replace with your own username
-    version="v0.0.5",
+    version="v0.0.6",
     author="Isadora",
     author_email="isadora.s.macedo@gmail.com",
     description="Modelagem geofísica direta de campos eletromagnéticos via volumes finitos: MT e MCSEM.",
