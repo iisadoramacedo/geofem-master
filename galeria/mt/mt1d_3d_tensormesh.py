@@ -8,17 +8,17 @@ Created on Tue Jun  9 20:45:31 2020
 MT 3D - Tensor Mesh
 
 """
-import SimPEG as simpeg
+from geofem import SimPEG as simpeg
 import discretize
-from SimPEG.EM import NSEM
-from SimPEG import Utils
+from geofem.SimPEG.EM import NSEM
+from geofem.SimPEG import Utils
 import numpy as np
 import matplotlib.pyplot as plt
 
 try:
     from pymatsolver import Pardiso as Solver
 except:
-    from SimPEG import Solver
+    from geofem.SimPEG import Solver
 
 
 def run(plotIt=True):
