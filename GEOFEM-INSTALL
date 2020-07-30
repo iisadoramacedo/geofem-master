@@ -1,0 +1,38 @@
+---------- INSTALAÇÃO E USO DO PACOTE GEOFEM ----------
+Em: Jul/2020
+
+0 - INSTALAR ANACONDA COM ATIVAÇÃO CONDA NO SISTEMA OPERACIONAL
+
+1 - CRIAR O CONTAINER CONDA PARA O GEOFEM
+
+(base)~:$ conda create -n geofem python=3 spyder=4
+
+
+2 - ENTRAR NO AMBIENTE CRIADO
+
+(base)~:$ conda activate geofem
+
+
+3 - INSTALAR GEOFEM
+
+(geofem)~:$ pip install geofem
+
+
+4 - CRIAR ARQUIVO geofem_path.pth COM O CAMINHO DO SEU COMPUTADOR PARA O GEOFEM
+
+/home/seu_user/anaconda3/envs/geofem/lib/python3.8/site-packages/geofem
+
+
+5 - POR O ARQUIVO geofem_path.pth NO DIRETÓRIO /home/seu_user/anaconda3/envs/geofem/lib/python3.8/site-packages
+
+
+6 - ABRIR O SPYDER
+
+(geofem)~:$ spyder
+
+
+5 - RODAR ALGUM CÓDIGO EXISTENTE NA GALERIA
+
+https://github.com/iisadoramacedo/geofem-master/tree/master/galeria
+
+
